@@ -56,6 +56,10 @@
             background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
             position: relative;
             overflow: hidden;
+            background-image: url("./Images\IMG-20251119-WA0017.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
 
         .page-hero::before {
