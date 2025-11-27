@@ -9,9 +9,8 @@
 <body>
   <header>
         <div class="logo"><img src="./Images/Zula L-01.jpg" alt="Zzula Art Ltd" width="150" height="80"></div>
-    
         <nav>
-             <a href="/Index.html">Home</a>
+            <a href="/Index.html">Home</a>
             <a href="/About Us.html">About Us</a>
             <a href="/Services.html">Services</a>
             <a href="/Contact Us.html">Contact Us</a>
@@ -20,61 +19,40 @@
     </header>
 
     <section class="page-hero">
-        <h1>Our <span class="highlight">Services</span></h1>
+        <h1>Our <span class="highlight">Creative</span> Services</h1>
     </section>
 
     <div class="services-container">
         <div class="services-intro">
-            <p>From curating breathtaking exhibitions to crafting bespoke art experiences, Zzula Arts Ltd transforms spaces and visions into unforgettable artistic realities.</p>
+            <p>At Zzula Art, we transform visions into reality through our comprehensive creative services. From stunning murals to digital masterpieces, we bring artistry and innovation to every project.</p>
         </div>
 
-        <div class="services-grid">
-            <div class="service-card service-1"><img src="./Images\IMG-20251119-WA0012.jpg" width="600" height="400">
-                <div class="service-content">
-                    <div class="service-icon">🎨</div>
-                    <h3>Exhibition Curation</h3>
-                    <p>Conceptualizing and organizing world-class art exhibitions that tell compelling stories. From gallery layout to artist selection, we handle every detail with precision and creativity.</p>
-                    <span class="service-tag">Signature Service</span>
-                </div>
-            </div>
-
-            <div class="service-card service-2"><img src="./Images\IMG-20251119-WA0117.jpg" width="100%" height="100%">
-                <div class="service-content">
-                    <div class="service-icon">🖼️</div>
-                    <h3>Art Consultation</h3>
-                    <p>Expert guidance for collectors and institutions on acquiring, displaying, and preserving fine art.</p>
-                    <span class="service-tag">Advisory</span>
-                </div>
-            </div>
-
-            <div class="service-card service-3"><img src="./Images\IMG-20251119-WA0117.jpg" width="100%" height="100%">
-                <div class="service-content">
-                    <div class="service-icon">✨</div>
-                    <h3>Event Design</h3>
-                    <p>Creating immersive artistic experiences for openings, galas, and cultural events that leave lasting impressions.</p>
-                    <span class="service-tag">Experiential</span>
-                </div>
-            </div>
-
-            <div class="service-card service-4"><img src="./Images\IMG-20251119-WA0117.jpg" width="100%" height="100%">
-                <div class="service-content">
-                    <div class="service-icon">🏛️</div>
-                    <h3>Collection Management</h3>
-                    <p>Professional art collection documentation, cataloging, and strategic planning for institutions and private collectors.</p>
-                    <span class="service-tag">Professional</span>
-                </div>
-            </div>
-        </div>
+        <div class="services-grid" id="servicesGrid"></div>
 
         <div class="cta-section">
-            <h2>Ready to Begin?</h2>
-            <p>Let's collaborate to bring your artistic vision to life. Whether it's a major exhibition or intimate gallery showing, we're here to elevate your project.</p>
-            <a href="contact.html" class="cta-button">Start a Conversation</a>
+            <h2>Ready to Start Your Project?</h2>
+            <p>Let's collaborate and bring your artistic vision to life. Contact us today for a free consultation.</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2024 Zzula Arts Ltd. All rights reserved. | Elevating Art & Culture</p>
+        <p>&copy; 2025 Zzula Art. All rights reserved.</p>
     </footer>
+
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <div class="modal-title-section">
+                <h2 id="modalTitle"></h2>
+                <p class="modal-subtitle" id="modalSubtitle"></p>
+            </div>
+            <button class="close-btn" id="closeBtn">&times;</button>
+        </div>
+        <div class="modal-image" id="modalImage"></div>
+        <div class="modal-content" id="modalContent"></div>
+    </div>
+
+     <script src="/Services.js"></script>
 </body>
 </html>
